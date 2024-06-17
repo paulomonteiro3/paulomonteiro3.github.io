@@ -1,0 +1,112 @@
+.red-velvet-container {
+  display: grid;
+  margin: 120px auto;
+  max-width: 1280px;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.red-velvet-container h1, .red-velvet-container h3 {
+  grid-column: 1/-1;
+  margin-bottom: 20px;
+}
+
+.red-velvet-container h1, .red-velvet-container h3  {
+  color: var(--cor-p7);
+}
+
+.red-velvet-container p {
+  color: #573232;
+  margin-bottom: 30px;
+}
+
+.red-velvet-conteudo {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 0.5fr;
+  align-self: center;
+}
+
+.red-velvet-btn {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  background-color: var(--cor-p6);
+  color: white;
+  border-radius: 10px;
+}
+
+.red-velvet-btn:hover {
+  background-color: var(--cor-p7);
+  transition: 0.3s;
+}
+
+@media (max-width: 1300px) {
+  .red-velvet-container {
+    grid-template-columns: 1.3fr 1fr;
+    gap: 20px;
+  }
+  .red-velvet-container h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .red-velvet-container h1 {
+    margin-bottom: 0px;
+  }
+  .red-velvet-container p {
+    max-width: 25ch;
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 1010px) {
+  .red-velvet-container h1 {
+    font-size: 1.75rem;
+  }
+  .red-velvet-container h3 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .red-velvet-container h1 {
+    font-size: 1.5rem;
+  }
+  .red-velvet-container h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .red-velvet-container {
+    grid-template-columns: 1fr;
+    align-self: center;
+    justify-items: center;
+  }
+  .red-velvet-conteudo {
+    justify-content: center;
+  }
+  .red-velvet-container h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .red-velvet-container p {
+    max-width: 35ch;
+  }
+  .red-velvet-btn {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .red-velvet-container h3 {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .red-velvet-conteudo p {
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    max-width: 35ch;
+    font-size: 1rem;
+  }
+}

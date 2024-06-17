@@ -1,0 +1,22 @@
+.categorias {
+  padding-top: 80px;
+  text-align: center;
+  color: var(--cor-p5);
+}
+
+.categorias-itens {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 80px;
+  max-height: 60px;
+}
+
+.categorias-itens p {
+  display: none;
+  padding-top: 10px;
+}
+
+.categorias-itens a:hover p {
+  display: inline-block;
+}

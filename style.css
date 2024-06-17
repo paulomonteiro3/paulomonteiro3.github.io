@@ -1,0 +1,28 @@
+/* Header */
+@import './header/header.css';
+@import './header/introducao.css';
+@import './header/categorias.css';
+
+/* Best Sellers */
+
+@import './best-sellers/best-sellers.css';
+@import './best-sellers/red-velvet.css';
+
+/* Doces */
+
+@import './doces/doces.css';
+
+/* Footer */
+
+@import './footer/footer.css';
+
+/* Promocoes */
+
+@import './promo/promocoes.css';
+@import './promo/descontos.css';
+
+/* Utilidades */
+
+@import './utilidades/componentes.css';
+@import './utilidades/cores.css';
+@import './utilidades/tipografias.css';

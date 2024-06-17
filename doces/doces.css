@@ -1,0 +1,37 @@
+.doces-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+}
+
+.doces-container h1 {
+  grid-row: 1/-1;
+}
+
+.doces-img img {
+  height: 580px;
+  width: 960px;
+  object-fit: cover;
+}
+
+.doces-itens {
+  display: grid;
+  justify-items: center;
+}
+
+.doces-btn {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  background-color: #351507;
+  color: #ffff;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.doces-btn:hover {
+  background-color: #2B1105;
+  transition: 0.3s;
+}

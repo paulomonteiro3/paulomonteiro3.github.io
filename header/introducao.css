@@ -1,0 +1,79 @@
+.introducao-img {
+  height: 420px;
+  background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.8)), url(../img/introducao-img.jpg);
+  object-fit: cover;
+  object-position: right;
+  align-items: center;
+  gap: 20px;
+  padding-left: 80px;
+  color: var(--cor-p5);
+}
+
+.introducao-img h1, p {
+  padding-top: 80px;
+}
+
+.introducao-img h1 {
+  display: inline-block;
+}
+
+.introducao-img h1:hover {
+  color: #221414;
+}
+
+
+.introducao-img-conteudo p {
+  color: #311C1C;
+}
+
+.sub-grid-bg {
+  height: 62px;
+  background-color: var(--cor-p1);
+  align-content: center;
+}
+
+.sub-grid-dec {
+  height: 2px;
+  background-color: #F9DED2;
+}
+
+.introducao-sub-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.introducao-sub-grid li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 1050px) {
+  .sub-grid-item h5 {
+    font: 400 0.75rem/1.35 "Poppins", sans-serif;;
+  }
+}
+
+@media (max-width: 570px) {
+  .introducao-img h1 {
+    font: 600 3rem/1.125 "Poppins", sans-serif;
+  }
+}
+
+@media (max-width: 470px) {
+  .introducao-img h1 {
+    font: 600 2rem/1.125 "Poppins", sans-serif;
+  }
+}
+
+@media (max-width: 700px) {
+  .introducao-sub-grid {
+    display: grid;
+    background-color: var(--cor-p1);
+    gap: 8px;
+  }
+  .sub-grid-bg {
+    padding-bottom: 60px;
+  }
+}

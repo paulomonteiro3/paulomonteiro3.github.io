@@ -1,0 +1,61 @@
+.footer-bg {
+  background-color: var(--cor-p1);
+}
+
+
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  padding-top: 80px;
+  gap: 40px;
+}
+
+.footer-container h3 {
+  color: var(--cor-p4);
+}
+
+.footer-container h5 {
+  color: var(--cor-p5);
+}
+
+.footer-utilidades, .footer-atendimentos {
+  display: grid;
+  gap: 10px;
+}
+
+.redes-subtitulo, .pagamento-subtitulo  {
+  margin-bottom: 10px;
+}
+
+
+.footer-pagamento-img, .footer-redes-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-copy {
+  display: grid;
+  grid-column: 1/-1;
+  font-size: 0.75rem;
+  justify-content: left;
+  color: var(--cor-p5);
+  margin-top: 20px;
+}
+
+@media (max-width: 830px) {
+  .footer-container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer-container h3 {
+    font-size: 0.75rem;
+  }
+  .foooter-container h5 {
+    font-size: 0.5rem;
+  }
+}

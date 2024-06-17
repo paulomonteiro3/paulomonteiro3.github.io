@@ -1,0 +1,100 @@
+.promocoes-avisos-bg {
+  margin-top: 120px;
+  background-color: var(--cor-p7);
+}
+
+.promocoes-avisos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-self: center;
+  margin: 60px 300px;
+  padding: 40px;
+  color: #fff;
+}
+
+.promocoes-formulario {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+}
+
+.promocoes-formulario input {
+ width: 400px;
+ height: 40px;
+ text-align: center;
+ border-radius: 20px;
+ border: solid 1px black;
+}
+
+
+.promocoes-formulario input::placeholder {
+  font-size: 14px;
+  font: 400 0.75rem/1.35 "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.promocoes-avisos-btn {
+  display: grid;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  align-content: center;
+  background-color: #590405;
+  border-radius: 10px;
+}
+
+@media (max-width: 1460px) {
+  .promocoes-formulario input {
+    width: 300px;
+  }
+  .promocoes-avisos h1 {
+    font-size: 1.7rem;
+  }
+  .promocoes-avisos {
+    margin: 40px 200px;
+  }
+}
+
+@media (max-width: 1310px) {
+  .promocoes-formulario input {
+    width: 200px;
+  }
+  .promocoes-avisos h1 {
+    font-size: 1.4rem;
+    width: 20ch;
+  }
+  .promocoes-avisos {
+    margin: 40px 100px;
+  }
+}
+
+@media (max-width: 770px) {
+  .promocoes-avisos {
+    margin: 40px 60px;
+  }
+  .promocoes-formulario input {
+    width: 180px;
+  }
+  .promocoes-avisos h1 {
+    font-size: 1.2rem;
+    width: 20ch;
+  }
+}
+
+@media (max-width: 630px) {
+  .promocoes-avisos {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
+  .promocoes-formulario input {
+    width: 240px;
+  }
+}
+
+@media (max-width: 450px) {
+  .promocoes-avisos {
+    margin: 0px;
+    gap: 10px;
+  }
+}
